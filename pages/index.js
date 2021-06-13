@@ -127,13 +127,19 @@ export default function Home() {
           <div id="experiences" className={styles.card}>
             <ul>
               <p>Formation développeur chez Fewlines a Lilles - 2021</p>
+              <br />
               <li>Apprentissage React - Next js - Node- Express - Github</li>
+              <br />
               <li>Apprentissage MongoDb - Heroku</li>
+              <br />
               <li>Apprentissage Bootstrap - Nunjucks</li>
+              <br />
               <li>
                 Apprentissage Javascript - Typescript Apprentissage Html5 - CSS3
               </li>
+              <br />
               <li> Apprentissage Jest et Taiko</li>
+              <br />
             </ul>
             <ul>
               <p>
@@ -143,11 +149,14 @@ export default function Home() {
               <li>
                 Maintenance micro-informatique (desktop, notebook et tablette) ;
               </li>
+              <br />
               <li>Réparation smartphone ; </li>
+              <br />
               <li>
                 Installation de systèmes informatique (remasterisation ou
                 recovery) et matériels informatique
               </li>
+              <br />
             </ul>
           </div>
         ) : null}
@@ -155,15 +164,19 @@ export default function Home() {
           <div id="formation" className={styles.card}>
             <ul>
               <p>Parcours scolaire</p>
+              <br />
               <li>
                 2000 : Formation LEGRI (Responsable logiciel et gestion réseau)
                 ecole polytechnique – Nantes (44)
               </li>
+              <br />
               <li>
                 1998 : BTS informatique industrielle mention économie lycée
                 Nicolas Appert – Orvault (44){" "}
               </li>
+              <br />
               <li>1996 : Baccalauréat sti - Nantes (44)</li>
+              <br />
             </ul>
           </div>
         ) : null}
@@ -171,11 +184,15 @@ export default function Home() {
           <div id="centre-interets" className={styles.card}>
             <ul>
               <p>Centre d'intérêts</p>
+              <br />
               <li>Anglais informatique lu</li>
+              <br />
               <li>
                 Pratique du football et dirigeant, entraineur des u12-u13.
               </li>
+              <br />
               <li>L’univers des nouvelles technologies.</li>
+              <br />
             </ul>
           </div>
         ) : null}
