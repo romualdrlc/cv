@@ -1,4 +1,3 @@
-import Link from "next/link";
 const Navbar = () => (
   <nav class="navbar sticky-top navbar-light bg-light">
     <div class="container-fluid">
