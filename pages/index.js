@@ -1,5 +1,5 @@
 import Head from "next/head";
-import style from "../styles/home.module.css";
+import styles from "../styles/home.module.css";
 import Navbar from "../component/navbar";
 import Footer from "../component/footer";
 import Homepage from "../component/homepage";
@@ -28,6 +28,7 @@ export default function Home() {
           crossorigin="anonymous"
         ></script>
       </Head>
+
       <Navbar />
       <Homepage />
       <Footer />

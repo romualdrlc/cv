@@ -1,18 +1,36 @@
+import "font-awesome/css/font-awesome.min.css";
+
 const Footer = () => {
-  <footer class="row">
-    <div class="sozial col-12">
-      <ul class="row">
-        <li class="col-xs-6 col-sm-2">
-          <a href="#">
-            <img
-              class="logo"
-              src="https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_google_plus-128.png"
-            />
+  return (
+    <footer class="text-center text-lg-start bg-light text-muted">
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <div class="me-5 d-none d-lg-block">
+          <span>Get connected with me on social networks:</span>
+        </div>
+
+        <div>
+          <a
+            href="mailto:romuald.lecorroller@gmail.com"
+            class="me-4 text-reset"
+          >
+            <i class="fa fa-google"></i>
           </a>
-        </li>
-      </ul>
-    </div>
-  </footer>;
+          <a
+            href="https://www.linkedin.com/in/romuald-le-corroller-6a03a9196/"
+            class="me-4 text-reset"
+          >
+            <i className="fa fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/romualdrlc" class="me-4 text-reset">
+            <i className="fa fa-github"></i>
+          </a>
+          <a href="tel:0624565327" class="me-4 text-reset">
+            <i className="fa fa-phone"></i>
+          </a>
+        </div>
+      </section>
+    </footer>
+  );
 };
 
 export default Footer;
