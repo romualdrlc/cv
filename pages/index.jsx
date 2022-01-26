@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/home.module.css";
 import Navbar from "../component/navbar";
 import Footer from "../component/footer";
 import Homepage from "../component/homepage";
