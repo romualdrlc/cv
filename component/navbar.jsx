@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          My cv
+          Romuald cv's
         </a>
         <button
           class="navbar-toggler"
