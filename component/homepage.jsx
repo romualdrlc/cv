@@ -1,5 +1,5 @@
 import { useState } from "react";
-import style from "../../styles/Home.module.css";
+import style from "../styles/Home.module.css";
 
 const Homepage = () => {
   const [displayProfil, setDisplayProfil] = useState(false);

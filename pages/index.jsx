@@ -2,7 +2,7 @@ import Head from "next/head";
 import Navbar from "../component/navbar";
 import Footer from "../component/footer";
 import Homepage from "../component/homepage";
-import style from "../../styles/Home.module.css";
+import style from "../styles/Home.module.css";
 
 export default function Home() {
   return (
