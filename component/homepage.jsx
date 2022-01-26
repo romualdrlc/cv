@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../styles/home.module.css";
+import style from "../styles/home.module.css";
 
 const Homepage = () => {
   const [displayProfil, setDisplayProfil] = useState(false);
@@ -45,24 +45,24 @@ const Homepage = () => {
   };
 
   return (
-    <main className={styles.main}>
-      <p className={styles.description}>
-        <code className={styles.code}>
+    <main className={style.main}>
+      <p className={style.description}>
+        <code className={style.code}>
           Mon lien{" "}
           <a href="https://github.com/romualdrlc?tab=repositories">Github</a>
         </code>
       </p>
 
-      <div className={styles.grid}>
+      <div className={style.grid}>
         <h2
-          className={styles.card}
+          className={style.card}
           onClick={() => infoMe()}
           style={{ cursor: "pointer" }}
         >
           Informations personelles &rarr;
         </h2>
         <h2
-          className={styles.card}
+          className={style.card}
           onClick={() => profil()}
           style={{ cursor: "pointer" }}
         >
@@ -70,7 +70,7 @@ const Homepage = () => {
         </h2>
 
         <h2
-          className={styles.card}
+          className={style.card}
           onClick={() => experiences()}
           style={{ cursor: "pointer" }}
         >
@@ -78,7 +78,7 @@ const Homepage = () => {
         </h2>
 
         <h2
-          className={styles.card}
+          className={style.card}
           onClick={() => formation()}
           style={{ cursor: "pointer" }}
         >
@@ -86,7 +86,7 @@ const Homepage = () => {
         </h2>
 
         <h2
-          className={styles.card}
+          className={style.card}
           onClick={() => interets()}
           style={{ cursor: "pointer" }}
         >
@@ -94,7 +94,7 @@ const Homepage = () => {
         </h2>
       </div>
       {displayInfoMe ? (
-        <div id="profil" className={styles.card}>
+        <div id="profil" className={style.card}>
           <p>Je suis romuald, marié deux enfants, j'ai 43 ans</p>
           <p>Mon adresse : 2 franchaud 44440 a Joué sur Erdre.</p>
           <p>Mon mail: romuald.lecorroller@gmail.com</p>
@@ -102,7 +102,7 @@ const Homepage = () => {
         </div>
       ) : null}
       {displayProfil ? (
-        <div id="profil" className={styles.card}>
+        <div id="profil" className={style.card}>
           <p>
             Bonjour,
             <br /> je suis technicien dépanneur en micro-informatique depuis 20
@@ -114,7 +114,7 @@ const Homepage = () => {
         </div>
       ) : null}
       {displayExperiences ? (
-        <div id="experiences" className={styles.card}>
+        <div id="experiences" className={style.card}>
           <ul>
             <p>Formation développeur chez Fewlines a Lilles - 2021</p>
             <br />
@@ -151,7 +151,7 @@ const Homepage = () => {
         </div>
       ) : null}
       {displayFormation ? (
-        <div id="formation" className={styles.card}>
+        <div id="formation" className={style.card}>
           <ul>
             <p>Parcours scolaire</p>
             <br />
@@ -171,7 +171,7 @@ const Homepage = () => {
         </div>
       ) : null}
       {displayInterest ? (
-        <div id="centre-interets" className={styles.card}>
+        <div id="centre-interets" className={style.card}>
           <ul>
             <p>Centre d'intérêts</p>
             <br />
